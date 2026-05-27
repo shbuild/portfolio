@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="100%" height="100%" rx="32" fill="#efe3c8" stroke="#b0894a" stroke-width="12"/>
+  <g transform="translate(200,200)">
+    <path d="M-80 -20 q80 -120 160 0" fill="#2b2a2e" opacity="0.9"/>
+    <circle cx="0" cy="-64" r="28" fill="#d7af69"/>
+    <text x="0" y="68" text-anchor="middle" font-family="Georgia, serif" font-size="48" fill="#2b2a2e">KPI</text>
+  </g>
+</svg>

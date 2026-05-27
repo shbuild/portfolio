@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 220">
+  <defs>
+    <linearGradient id="ribbon-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f4dfb9"/>
+      <stop offset="45%" stop-color="#f2d9aa"/>
+      <stop offset="100%" stop-color="#d9b47a"/>
+    </linearGradient>
+    <linearGradient id="ribbon-shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.48)"/>
+      <stop offset="45%" stop-color="rgba(255,255,255,0.18)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+    </linearGradient>
+  </defs>
+  <path d="M60 40 C40 40 20 58 20 82 L20 138 C20 162 40 180 60 180 L180 180 C210 180 210 140 240 140 C270 140 270 180 300 180 L420 180 C450 180 450 140 480 140 C510 140 510 180 540 180 L660 180 C680 180 700 162 700 138 L700 82 C700 58 680 40 660 40 Z" fill="url(#ribbon-bg)" stroke="#9e7a46" stroke-width="10"/>
+  <path d="M38 88 C26 88 22 96 22 106 C22 118 34 128 48 124" fill="none" stroke="#8f6d3d" stroke-width="8"/>
+  <path d="M682 88 C694 88 698 96 698 106 C698 118 686 128 672 124" fill="none" stroke="#8f6d3d" stroke-width="8"/>
+  <path d="M60 140 C90 132 120 132 150 140" fill="none" stroke="#8f6d3d" stroke-width="6"/>
+  <path d="M570 140 C540 132 510 132 480 140" fill="none" stroke="#8f6d3d" stroke-width="6"/>
+  <path d="M80 100 H640" stroke="#876738" stroke-width="12" opacity="0.2"/>
+  <path d="M88 90 H632" stroke="#ffffff" stroke-width="4" opacity="0.18"/>
+  <rect x="64" y="62" width="592" height="96" rx="38" fill="url(#ribbon-shine)" opacity="0.42"/>
+</svg>

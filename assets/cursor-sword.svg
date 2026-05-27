@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <!-- Blade body pointing to top-left -->
+  <polygon points="2,2 7,17 17,7" fill="#c8923a" stroke="#8c6010" stroke-width="0.6"/>
+  <!-- Blade bright face -->
+  <polygon points="2,2 3.5,8 8,3.5" fill="#f0d060"/>
+  <!-- Blade center ridge highlight -->
+  <line x1="2" y1="2" x2="15" y2="15" stroke="#f8e898" stroke-width="0.9" stroke-linecap="round" opacity="0.7"/>
+  <!-- Cross guard -->
+  <line x1="10" y1="22" x2="22" y2="10" stroke="#c89030" stroke-width="4" stroke-linecap="round"/>
+  <!-- Cross guard highlight -->
+  <line x1="11" y1="20.5" x2="20.5" y2="11" stroke="#f0c840" stroke-width="1.2" stroke-linecap="round" opacity="0.55"/>
+  <!-- Handle -->
+  <line x1="20" y1="20" x2="29" y2="29" stroke="#5a3410" stroke-width="4.5" stroke-linecap="round"/>
+  <!-- Handle wrap -->
+  <line x1="21" y1="21" x2="28" y2="28" stroke="#c88828" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="2,2.5" opacity="0.75"/>
+  <!-- Pommel -->
+  <circle cx="29" cy="29" r="2.8" fill="#c89030" stroke="#7a5010" stroke-width="1"/>
+  <circle cx="29" cy="29" r="1.1" fill="#f8e040" opacity="0.9"/>
+</svg>

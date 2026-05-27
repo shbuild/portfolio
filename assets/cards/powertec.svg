@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600">
+  <rect width="100%" height="100%" fill="#0b0a0d"/>
+  <rect x="14" y="14" width="372" height="572" rx="24" fill="#121017" stroke="#37323a" stroke-width="16"/>
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2b2128"/>
+      <stop offset="100%" stop-color="#10100e"/>
+    </linearGradient>
+  </defs>
+  <rect x="34" y="38" width="332" height="342" rx="18" fill="url(#bg3)" stroke="#2d2a32" stroke-width="6"/>
+  <circle cx="200" cy="160" r="62" fill="#1f1b24" stroke="#8a6f4f" stroke-width="8"/>
+  <circle cx="200" cy="160" r="34" fill="#0e0d11"/>
+  <path d="M170 230 q30 38 60 0" fill="#b78a43"/>
+  <path d="M155 280 c18 40 110 40 128 0" fill="#2a242b"/>
+  <rect x="148" y="276" width="104" height="128" rx="22" fill="#29252e"/>
+  <path d="M148 296 c24 -12 80 -12 104 0" fill="#3f3a48"/>
+  <path d="M158 326 l-28 70 q6 16 18 12 l22 -66" fill="#3a3240"/>
+  <path d="M242 326 l28 70 q-6 16 -18 12 l-22 -66" fill="#3a3240"/>
+  <path d="M172 150 c34 -30 76 -30 110 0" stroke="#b89156" stroke-width="10" fill="none"/>
+  <path d="M138 240 q112 20 124 -8" stroke="#a58d56" stroke-width="8" fill="none"/>
+  <g fill="#8a6f4f" opacity="0.85">
+    <rect x="132" y="212" width="20" height="10" rx="5"/>
+    <rect x="248" y="212" width="20" height="10" rx="5"/>
+  </g>
+  <text x="200" y="500" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#d9b26b">Power</text>
+  <text x="200" y="532" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#bfbfbf">Tec</text>
+</svg>

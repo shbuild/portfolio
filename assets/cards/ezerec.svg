@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600">
+  <rect width="100%" height="100%" fill="#0b0a0d"/>
+  <rect x="14" y="14" width="372" height="572" rx="24" fill="#121017" stroke="#3a3339" stroke-width="16"/>
+  <defs>
+    <linearGradient id="bg6" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a2d28"/>
+      <stop offset="100%" stop-color="#10100f"/>
+    </linearGradient>
+  </defs>
+  <rect x="34" y="38" width="332" height="342" rx="18" fill="url(#bg6)" stroke="#2f2a33" stroke-width="6"/>
+  <circle cx="190" cy="170" r="66" fill="#242429" stroke="#6f8b73" stroke-width="8"/>
+  <circle cx="168" cy="154" r="12" fill="#dad8ba"/>
+  <circle cx="212" cy="154" r="12" fill="#dad8ba"/>
+  <path d="M160 184 c25 20 60 20 85 0" stroke="#a7b38d" stroke-width="10" fill="none"/>
+  <path d="M132 232 q50 30 120 0" fill="#2a2d2f"/>
+  <rect x="138" y="232" width="124" height="122" rx="22" fill="#1e1f24"/>
+  <path d="M132 286 q24 24 128 0" stroke="#97aa87" stroke-width="8" fill="none"/>
+  <rect x="146" y="260" width="20" height="20" fill="#98a57f" rx="5"/>
+  <rect x="234" y="260" width="20" height="20" fill="#98a57f" rx="5"/>
+  <path d="M160 304 l-20 56 q6 16 16 14 l20 -58" fill="#252528"/>
+  <path d="M240 304 l20 56 q-6 16 -16 14 l-20 -58" fill="#252528"/>
+  <path d="M170 120 c24 -18 54 -18 78 0" stroke="#b28d4f" stroke-width="8" fill="none"/>
+  <path d="M142 186 c-24 16 -32 46 -30 72" fill="none" stroke="#9da27a" stroke-width="10"/>
+  <path d="M258 186 c24 16 32 46 30 72" fill="none" stroke="#9da27a" stroke-width="10"/>
+  <text x="200" y="500" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#d9b26b">Ezerec</text>
+  <text x="200" y="532" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#bfbfbf">Pty</text>
+</svg>

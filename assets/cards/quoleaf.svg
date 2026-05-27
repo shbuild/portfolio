@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600">
+  <rect width="100%" height="100%" fill="#0b0a0d"/>
+  <rect x="14" y="14" width="372" height="572" rx="24" fill="#121017" stroke="#363139" stroke-width="16"/>
+  <defs>
+    <linearGradient id="bg8" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#243125"/>
+      <stop offset="100%" stop-color="#0f100f"/>
+    </linearGradient>
+  </defs>
+  <rect x="34" y="38" width="332" height="342" rx="18" fill="url(#bg8)" stroke="#2d2a32" stroke-width="6"/>
+  <circle cx="200" cy="170" r="64" fill="#1c221d" stroke="#88a162" stroke-width="8"/>
+  <circle cx="186" cy="158" r="14" fill="#d4d59b"/>
+  <circle cx="214" cy="158" r="14" fill="#d4d59b"/>
+  <path d="M150 214 q100 46 120 0" stroke="#9cb56d" stroke-width="8" fill="none"/>
+  <rect x="150" y="232" width="100" height="140" rx="24" fill="#1c221d"/>
+  <path d="M150 258 q52 22 100 0" fill="#2e342c"/>
+  <path d="M132 294 c20 44 116 44 136 0" fill="#1f241f"/>
+  <path d="M150 330 l-20 78 q8 18 20 16 l20 -74" fill="#212622"/>
+  <path d="M250 330 l20 78 q-8 18 -20 16 l-20 -74" fill="#212622"/>
+  <path d="M170 138 c24 -20 56 -20 80 0" stroke="#bed48f" stroke-width="8" fill="none"/>
+  <text x="200" y="500" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#d9b26b">Quoleaf</text>
+  <text x="200" y="532" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#bfbfbf">Druid</text>
+</svg>

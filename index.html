@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raf | Exile of the Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Inline game icon sprites -->
+    <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+      <symbol id="icon-sword" viewBox="0 0 24 24">
+        <path d="M3 21l3-3 9.5-9.5-3-3L3 15l0 6zM20.7 7.3c.4-.4.4-1 0-1.4l-2.6-2.6c-.4-.4-1-.4-1.4 0l-1.7 1.7 4 4 1.7-1.7z"/>
+      </symbol>
+      <symbol id="icon-hammer" viewBox="0 0 24 24">
+        <path d="M21 4l-1-1-4 4 1 1-9 9-3 3 3 3 3-3 9-9 1 1 4-4z"/>
+      </symbol>
+      <symbol id="icon-rune" viewBox="0 0 24 24">
+        <path d="M12 2l3 6 6 3-6 3-3 6-3-6-6-3 6-3 3-6z"/>
+      </symbol>
+      <symbol id="icon-craft" viewBox="0 0 24 24">
+        <path d="M12 2L2 7l10 5 10-5-10-5zm0 7.5L4.2 7 12 4.5 19.8 7 12 9.5zM2 17l10 5 10-5v-2l-10 5-10-5v2z"/>
+      </symbol>
+    </svg>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Cinzel+Decorative:wght@400;700;900&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://js.hcaptcha.com/1/api.js?onload=onHcaptchaLoaded&render=explicit" async defer></script>
+    <script>(function(){var t=localStorage.getItem('raf-theme');if(t==='light')document.documentElement.setAttribute('data-theme','light');})()</script>
+  </head>
+  <body>
+    <video class="background-video" autoplay muted loop playsinline poster="assets/site-bg.svg" preload="auto">
+      <source src="https://v.redd.it/gwsbt5n6403h1/CMAF_1080.mp4?source=fallback" type="video/mp4" />
+      <source src="assets/site-bg.webm" type="video/webm" />
+      <source src="assets/site-bg.mp4" type="video/mp4" />
+      <!-- Remote Path of Exile wallpaper video source wired in above. -->
+    </video>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="#hero">Rafael's Portfolio</a>
+        <nav class="site-nav">
+          <a href="#about">About Me</a>
+          <a href="#work">Trials</a>
+          <a href="#resume">Codex</a>
+          <a href="#contact">Summon</a>
+        </nav>
+        <div class="header-actions">
+          <button class="theme-toggle" aria-label="Toggle light/dark mode">
+            <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="4.5"/><line x1="12" y1="2" x2="12" y2="4.5"/><line x1="12" y1="19.5" x2="12" y2="22"/><line x1="4.93" y1="4.93" x2="6.64" y2="6.64"/><line x1="17.36" y1="17.36" x2="19.07" y2="19.07"/><line x1="2" y1="12" x2="4.5" y2="12"/><line x1="19.5" y1="12" x2="22" y2="12"/><line x1="4.93" y1="19.07" x2="6.64" y2="17.36"/><line x1="17.36" y1="6.64" x2="19.07" y2="4.93"/>
+            </svg>
+            <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+            </svg>
+          </button>
+          <button class="nav-toggle" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero" id="hero">
+          <div class="hero-copy">
+            <p class="eyebrow">Atlas Portfolio</p>
+            <h1>Forging immersive web realms with a battle-tested design craft.</h1>
+            <p>
+              I craft premium digital experiences with a dark fantasy edge,
+              blending strategic UX, immersive visuals, and reliable technical
+              execution for ambitious brands and projects.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#contact">Begin the quest</a>
+              <a class="button secondary" href="#resume">Open the codex</a>
+            </div>
+          </div>
+          <div class="hero-panel">
+            <div class="panel-card">
+              <h2>Core Technical Skills</h2>
+              <ul class="skill-list">
+                <li class="reveal-item"><svg class="icon sword" aria-hidden="true"><use href="#icon-sword" xlink:href="#icon-sword"></use></svg> Front-End: Vue.js, JavaScript (ES6+), HTML5, CSS3 (Flexbox & Grid), Tailwind</li>
+                <li class="reveal-item"><svg class="icon hammer" aria-hidden="true"><use href="#icon-hammer" xlink:href="#icon-hammer"></use></svg> Back-End: PHP 8+, Laravel, RESTful APIs, MySQL</li>
+                <li class="reveal-item"><svg class="icon craft" aria-hidden="true"><use href="#icon-craft" xlink:href="#icon-craft"></use></svg> Automations: GoHighLevel (GHL), Zapier (API integrations & automation)</li>
+                <li class="reveal-item"><svg class="icon rune" aria-hidden="true"><use href="#icon-rune" xlink:href="#icon-rune"></use></svg> DevOps & CI: Bitbucket, Buildkite, Jenkins; basic AWS</li>
+              </ul>
+            </div>
+            <div class="panel-card accent-card reveal-item">
+              <h2>Tools & Platforms</h2>
+              <div class="tools-list">
+                <span>Metabase</span>
+                <span>WordPress</span>
+                <span>Magento</span>
+                <span>CodeIgniter</span>
+                <span>ASP.NET</span>
+                <span>GHL</span>
+                <span>Zapier</span>
+                <span>Figma (collab with designers)</span>
+                <span>Buildkite · Jenkins · Bitbucket</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="about">
+          <div class="section-header">
+            <span>About Me</span>
+            <h2>Why I journey through code</h2>
+          </div>
+          <div class="about-grid">
+            <div>
+              <p>I am Rafael — a seasoned code exile who has traveled across the web's darkest dungeons, from the cursed crypts of legacy PHP to the gleaming towers of modern Vue.js.</p>
+              <p>My build is optimized for front-end architecture, with deep investment in the Vue.js skill tree and strong passive nodes in Laravel, RESTful APIs, and MySQL. I've cleared some of the game's hardest content — fintech compliance systems, superannuation platforms, real-time data dashboards — and lived to commit the code.</p>
+              <p>Over 17 ascendancies, I've played many roles:</p>
+              <ul class="role-list">
+                <li>🗡️ <strong>Solo Exile</strong> — freelancing through e-commerce and WordPress wastelands</li>
+                <li>🛡️ <strong>Party Leader</strong> — mentoring junior devs and shipping client-facing products</li>
+                <li>⚙️ <strong>Architect</strong> — designing KPI systems, automation pipelines, and BI dashboards</li>
+              </ul>
+              <p>Currently farming endgame content at GROW Inc., building superannuation platforms for Australian super funds — where every bug is a map boss and every deployment is a league start.</p>
+              <p>Based in Angeles City, Philippines. Playing remotely since before it was meta.</p>
+              <a class="button primary about-cta" href="#contact">Currently open to new quests</a>
+            </div>
+            <div class="about-stats">
+              <div>
+                <strong>17+</strong>
+                <span>Years in the Atlas</span>
+              </div>
+              <div>
+                <strong>30+</strong>
+                <span>Crafted realms</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section section-alt" id="work">
+          <div class="section-header">
+            <span>Trials</span>
+            <h2>Selected quests and works</h2>
+          </div>
+          <div class="project-grid chest-grid">
+            <article class="chest-card reveal-item" data-url="https://powertec.com.au/" data-name="Powertec">
+              <div class="chest-wrap">
+                <div class="chest-lid"><div class="chest-lid-inlay"></div></div>
+                <div class="chest-base">
+                  <div class="chest-base-top-band"></div>
+                  <div class="chest-panels-row">
+                    <div class="chest-panel"><svg class="chest-rune" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="12.5" stroke="currentColor" stroke-width="1.5"/><polygon stroke="currentColor" stroke-width="1.3" fill="none" points="16,3.5 18.8,12.1 27.9,12.1 20.5,17.5 23.4,26.1 16,20.8 8.6,26.1 11.5,17.5 4.1,12.1 13.2,12.1"/></svg></div>
+                    <div class="chest-panel"><svg class="chest-rune" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="12.5" stroke="currentColor" stroke-width="1.5"/><polygon stroke="currentColor" stroke-width="1.3" fill="none" points="16,3.5 18.8,12.1 27.9,12.1 20.5,17.5 23.4,26.1 16,20.8 8.6,26.1 11.5,17.5 4.1,12.1 13.2,12.1"/></svg></div>
+                    <div class="chest-panel"><svg class="chest-rune" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="12.5" stroke="currentColor" stroke-width="1.5"/><polygon stroke="currentColor" stroke-width="1.3" fill="none" points="16,3.5 18.8,12.1 27.9,12.1 20.5,17.5 23.4,26.1 16,20.8 8.6,26.1 11.5,17.5 4.1,12.1 13.2,12.1"/></svg></div>
+                  </div>
+                  <div class="chest-base-bot-band"></div>
+                  <div class="chest-corner tl"></div><div class="chest-corner tr"></div><div class="chest-corner bl"></div><div class="chest-corner br"></div>
+                </div>
+              </div>
+              <div class="chest-label"><p class="chest-name">Powertec</p><p class="chest-tag">Industrial · E-Commerce</p></div>
+            </article>
+            <article class="chest-card reveal-item" data-url="https://epflies.com/" data-name="Epflies">
+              <div class="chest-wrap">
+                <div class="chest-lid"><div class="chest-lid-inlay"></div></div>
+                <div class="chest-base">
+                  <div class="chest-base-top-band"></div>
+                  <div class="chest-panels-row">
+                    <div class="chest-panel"><svg class="chest-rune" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="12.5" stroke="currentColor" stroke-width="1.5"/><polygon stroke="currentColor" stroke-width="1.3" fill="none" points="16,3.5 18.8,12.1 27.9,12.1 20.5,17.5 23.4,26.1 16,20.8 8.6,26.1 11.5,17.5 4.1,12.1 13.2,12.1"/></svg></div>
+                    <div class="chest-panel"><svg class="chest-rune" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="12.5" stroke="currentColor" stroke-width="1.5"/><polygon stroke="currentColor" stroke-width="1.3" fill="none" points="16,3.5 18.8,12.1 27.9,12.1 20.5,17.5 23.4,26.1 16,20.8 8.6,26.1 11.5,17.5 4.1,12.1 13.2,12.1"/></svg></div>
+                    <div class="chest-panel"><svg class="chest-rune" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="12.5" stroke="currentColor" stroke-width="1.5"/><polygon stroke="currentColor" stroke-width="1.3" fill="none" points="16,3.5 18.8,12.1 27.9,12.1 20.5,17.5 23.4,26.1 16,20.8 8.6,26.1 11.5,17.5 4.1,12.1 13.2,12.1"/></svg></div>
+                  </div>
+                  <div class="chest-base-bot-band"></div>
+                  <div class="chest-corner tl"></div><div class="chest-corner tr"></div><div class="chest-corner bl"></div><div class="chest-corner br"></div>
+                </div>
+              </div>
+              <div class="chest-label"><p class="chest-name">Epflies</p><p class="chest-tag">Travel Platform</p></div>
+            </article>
+            <article class="chest-card reveal-item" data-url="https://autolife.co.nz/" data-name="AutoLife">
+              <div class="chest-wrap">
+                <div class="chest-lid"><div class="chest-lid-inlay"></div></div>
+                <div class="chest-base">
+                  <div class="chest-base-top-band"></div>
+                  <div class="chest-panels-row">
+                    <div class="chest-panel"><svg class="chest-rune" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="12.5" stroke="currentColor" stroke-width="1.5"/><polygon stroke="currentColor" stroke-width="1.3" fill="none" points="16,3.5 18.8,12.1 27.9,12.1 20.5,17.5 23.4,26.1 16,20.8 8.6,26.1 11.5,17.5 4.1,12.1 13.2,12.1"/></svg></div>
+                    <div class="chest-panel"><svg class="chest-rune" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="12.5" stroke="currentColor" stroke-width="1.5"/><polygon stroke="currentColor" stroke-width="1.3" fill="none" points="16,3.5 18.8,12.1 27.9,12.1 20.5,17.5 23.4,26.1 16,20.8 8.6,26.1 11.5,17.5 4.1,12.1 13.2,12.1"/></svg></div>
+                    <div class="chest-panel"><svg class="chest-rune" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="12.5" stroke="currentColor" stroke-width="1.5"/><polygon stroke="currentColor" stroke-width="1.3" fill="none" points="16,3.5 18.8,12.1 27.9,12.1 20.5,17.5 23.4,26.1 16,20.8 8.6,26.1 11.5,17.5 4.1,12.1 13.2,12.1"/></svg></div>
+                  </div>
+                  <div class="chest-base-bot-band"></div>
+                  <div class="chest-corner tl"></div><div class="chest-corner tr"></div><div class="chest-corner bl"></div><div class="chest-corner br"></div>
+                </div>
+              </div>
+              <div class="chest-label"><p class="chest-name">AutoLife</p><p class="chest-tag">Automotive · NZ</p></div>
+            </article>
+            <article class="chest-card reveal-item" data-url="https://hotspring.co.nz/" data-name="Hot Spring NZ">
+              <div class="chest-wrap">
+                <div class="chest-lid"><div class="chest-lid-inlay"></div></div>
+                <div class="chest-base">
+                  <div class="chest-base-top-band"></div>
+                  <div class="chest-panels-row">
+                    <div class="chest-panel"><svg class="chest-rune" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="12.5" stroke="currentColor" stroke-width="1.5"/><polygon stroke="currentColor" stroke-width="1.3" fill="none" points="16,3.5 18.8,12.1 27.9,12.1 20.5,17.5 23.4,26.1 16,20.8 8.6,26.1 11.5,17.5 4.1,12.1 13.2,12.1"/></svg></div>
+                    <div class="chest-panel"><svg class="chest-rune" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="12.5" stroke="currentColor" stroke-width="1.5"/><polygon stroke="currentColor" stroke-width="1.3" fill="none" points="16,3.5 18.8,12.1 27.9,12.1 20.5,17.5 23.4,26.1 16,20.8 8.6,26.1 11.5,17.5 4.1,12.1 13.2,12.1"/></svg></div>
+                    <div class="chest-panel"><svg class="chest-rune" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="12.5" stroke="currentColor" stroke-width="1.5"/><polygon stroke="currentColor" stroke-width="1.3" fill="none" points="16,3.5 18.8,12.1 27.9,12.1 20.5,17.5 23.4,26.1 16,20.8 8.6,26.1 11.5,17.5 4.1,12.1 13.2,12.1"/></svg></div>
+                  </div>
+                  <div class="chest-base-bot-band"></div>
+                  <div class="chest-corner tl"></div><div class="chest-corner tr"></div><div class="chest-corner bl"></div><div class="chest-corner br"></div>
+                </div>
+              </div>
+              <div class="chest-label"><p class="chest-name">Hot Spring NZ</p><p class="chest-tag">Wellness · NZ</p></div>
+            </article>
+            <article class="chest-card reveal-item" data-url="https://www.md-factor.com/" data-name="MD Factor">
+              <div class="chest-wrap">
+                <div class="chest-lid"><div class="chest-lid-inlay"></div></div>
+                <div class="chest-base">
+                  <div class="chest-base-top-band"></div>
+                  <div class="chest-panels-row">
+                    <div class="chest-panel"><svg class="chest-rune" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="12.5" stroke="currentColor" stroke-width="1.5"/><polygon stroke="currentColor" stroke-width="1.3" fill="none" points="16,3.5 18.8,12.1 27.9,12.1 20.5,17.5 23.4,26.1 16,20.8 8.6,26.1 11.5,17.5 4.1,12.1 13.2,12.1"/></svg></div>
+                    <div class="chest-panel"><svg class="chest-rune" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="12.5" stroke="currentColor" stroke-width="1.5"/><polygon stroke="currentColor" stroke-width="1.3" fill="none" points="16,3.5 18.8,12.1 27.9,12.1 20.5,17.5 23.4,26.1 16,20.8 8.6,26.1 11.5,17.5 4.1,12.1 13.2,12.1"/></svg></div>
+                    <div class="chest-panel"><svg class="chest-rune" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="12.5" stroke="currentColor" stroke-width="1.5"/><polygon stroke="currentColor" stroke-width="1.3" fill="none" points="16,3.5 18.8,12.1 27.9,12.1 20.5,17.5 23.4,26.1 16,20.8 8.6,26.1 11.5,17.5 4.1,12.1 13.2,12.1"/></svg></div>
+                  </div>
+                  <div class="chest-base-bot-band"></div>
+                  <div class="chest-corner tl"></div><div class="chest-corner tr"></div><div class="chest-corner bl"></div><div class="chest-corner br"></div>
+                </div>
+              </div>
+              <div class="chest-label"><p class="chest-name">MD Factor</p><p class="chest-tag">Health · Beauty</p></div>
+            </article>
+            <article class="chest-card reveal-item" data-url="https://www.pcbyte.com.au/" data-name="PC Byte">
+              <div class="chest-wrap">
+                <div class="chest-lid"><div class="chest-lid-inlay"></div></div>
+                <div class="chest-base">
+                  <div class="chest-base-top-band"></div>
+                  <div class="chest-panels-row">
+                    <div class="chest-panel"><svg class="chest-rune" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="12.5" stroke="currentColor" stroke-width="1.5"/><polygon stroke="currentColor" stroke-width="1.3" fill="none" points="16,3.5 18.8,12.1 27.9,12.1 20.5,17.5 23.4,26.1 16,20.8 8.6,26.1 11.5,17.5 4.1,12.1 13.2,12.1"/></svg></div>
+                    <div class="chest-panel"><svg class="chest-rune" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="12.5" stroke="currentColor" stroke-width="1.5"/><polygon stroke="currentColor" stroke-width="1.3" fill="none" points="16,3.5 18.8,12.1 27.9,12.1 20.5,17.5 23.4,26.1 16,20.8 8.6,26.1 11.5,17.5 4.1,12.1 13.2,12.1"/></svg></div>
+                    <div class="chest-panel"><svg class="chest-rune" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="12.5" stroke="currentColor" stroke-width="1.5"/><polygon stroke="currentColor" stroke-width="1.3" fill="none" points="16,3.5 18.8,12.1 27.9,12.1 20.5,17.5 23.4,26.1 16,20.8 8.6,26.1 11.5,17.5 4.1,12.1 13.2,12.1"/></svg></div>
+                  </div>
+                  <div class="chest-base-bot-band"></div>
+                  <div class="chest-corner tl"></div><div class="chest-corner tr"></div><div class="chest-corner bl"></div><div class="chest-corner br"></div>
+                </div>
+              </div>
+              <div class="chest-label"><p class="chest-name">PC Byte</p><p class="chest-tag">Tech Retail · AU</p></div>
+            </article>
+            <article class="chest-card reveal-item" data-url="https://www.firstcreditunion.co.nz/first-credit-union/" data-name="First Credit Union">
+              <div class="chest-wrap">
+                <div class="chest-lid"><div class="chest-lid-inlay"></div></div>
+                <div class="chest-base">
+                  <div class="chest-base-top-band"></div>
+                  <div class="chest-panels-row">
+                    <div class="chest-panel"><svg class="chest-rune" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="12.5" stroke="currentColor" stroke-width="1.5"/><polygon stroke="currentColor" stroke-width="1.3" fill="none" points="16,3.5 18.8,12.1 27.9,12.1 20.5,17.5 23.4,26.1 16,20.8 8.6,26.1 11.5,17.5 4.1,12.1 13.2,12.1"/></svg></div>
+                    <div class="chest-panel"><svg class="chest-rune" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="12.5" stroke="currentColor" stroke-width="1.5"/><polygon stroke="currentColor" stroke-width="1.3" fill="none" points="16,3.5 18.8,12.1 27.9,12.1 20.5,17.5 23.4,26.1 16,20.8 8.6,26.1 11.5,17.5 4.1,12.1 13.2,12.1"/></svg></div>
+                    <div class="chest-panel"><svg class="chest-rune" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="12.5" stroke="currentColor" stroke-width="1.5"/><polygon stroke="currentColor" stroke-width="1.3" fill="none" points="16,3.5 18.8,12.1 27.9,12.1 20.5,17.5 23.4,26.1 16,20.8 8.6,26.1 11.5,17.5 4.1,12.1 13.2,12.1"/></svg></div>
+                  </div>
+                  <div class="chest-base-bot-band"></div>
+                  <div class="chest-corner tl"></div><div class="chest-corner tr"></div><div class="chest-corner bl"></div><div class="chest-corner br"></div>
+                </div>
+              </div>
+              <div class="chest-label"><p class="chest-name">First Credit Union</p><p class="chest-tag">Banking · Fintech</p></div>
+            </article>
+            <article class="chest-card reveal-item" data-url="https://www.astro.net.nz/" data-name="Astro NZ">
+              <div class="chest-wrap">
+                <div class="chest-lid"><div class="chest-lid-inlay"></div></div>
+                <div class="chest-base">
+                  <div class="chest-base-top-band"></div>
+                  <div class="chest-panels-row">
+                    <div class="chest-panel"><svg class="chest-rune" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="12.5" stroke="currentColor" stroke-width="1.5"/><polygon stroke="currentColor" stroke-width="1.3" fill="none" points="16,3.5 18.8,12.1 27.9,12.1 20.5,17.5 23.4,26.1 16,20.8 8.6,26.1 11.5,17.5 4.1,12.1 13.2,12.1"/></svg></div>
+                    <div class="chest-panel"><svg class="chest-rune" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="12.5" stroke="currentColor" stroke-width="1.5"/><polygon stroke="currentColor" stroke-width="1.3" fill="none" points="16,3.5 18.8,12.1 27.9,12.1 20.5,17.5 23.4,26.1 16,20.8 8.6,26.1 11.5,17.5 4.1,12.1 13.2,12.1"/></svg></div>
+                    <div class="chest-panel"><svg class="chest-rune" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="12.5" stroke="currentColor" stroke-width="1.5"/><polygon stroke="currentColor" stroke-width="1.3" fill="none" points="16,3.5 18.8,12.1 27.9,12.1 20.5,17.5 23.4,26.1 16,20.8 8.6,26.1 11.5,17.5 4.1,12.1 13.2,12.1"/></svg></div>
+                  </div>
+                  <div class="chest-base-bot-band"></div>
+                  <div class="chest-corner tl"></div><div class="chest-corner tr"></div><div class="chest-corner bl"></div><div class="chest-corner br"></div>
+                </div>
+              </div>
+              <div class="chest-label"><p class="chest-name">Astro NZ</p><p class="chest-tag">ISP · Broadband</p></div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="resume">
+          <div class="section-header">
+            <span>Codex</span>
+            <h2>Battle-earned experience</h2>
+          </div>
+          <div class="timeline">
+            <div class="timeline-item reveal-item">
+              <div class="card-art">
+                <div class="card-ribbon">Grow Inc · 2021</div>
+                <div class="card-logo">
+                  <img src="Company%20Logo/Grow%20Inc.png" alt="Grow Inc logo">
+                </div>
+                <div class="card-info">
+                  <span class="card-number">1/9</span>
+                  <p class="card-role">Senior Software Engineer</p>
+                  <p class="card-quality">Quality: +100%</p>
+                  <p class="card-years">Jan 2021 — Present</p>
+                  <div class="card-divider"></div>
+                  <p class="card-description">Primary front-end developer using Vue.js within GROW Inc’s superannuation platform (Member Online, Admin Online) for fund clients.</p>
+                </div>
+              </div>
+            </div>
+            <div class="timeline-item reveal-item">
+              <div class="card-art">
+                <div class="card-ribbon">Powertec · 2020</div>
+                <div class="card-logo">
+                  <img src="Company%20Logo/powertec.png" alt="Powertec logo">
+                </div>
+                <div class="card-info">
+                  <span class="card-number">2/9</span>
+                  <p class="card-role">Software Developer</p>
+                  <p class="card-quality">Quality: +100%</p>
+                  <p class="card-years">Feb 2020 — Dec 2020</p>
+                  <div class="card-divider"></div>
+                  <p class="card-description">Developed WordPress plugins and integrated backend services; collaborated on responsive UI with UX/UI designers.</p>
+                </div>
+              </div>
+            </div>
+            <div class="timeline-item reveal-item">
+              <div class="card-art">
+                <div class="card-ribbon">QuantumCrowd · 2019</div>
+                <div class="card-logo">
+                  <img src="Company%20Logo/Quantum%20Crowd.png" alt="QuantumCrowd logo">
+                </div>
+                <div class="card-info">
+                  <span class="card-number">3/9</span>
+                  <p class="card-role">Software Engineer</p>
+                  <p class="card-quality">Quality: +100%</p>
+                  <p class="card-years">Jan 2019 — Jan 2020</p>
+                  <div class="card-divider"></div>
+                  <p class="card-description">Delivered clean, testable code throughout the SDLC; integrated third-party modules and conducted system analysis.</p>
+                </div>
+              </div>
+            </div>
+            <div class="timeline-item reveal-item">
+              <div class="card-art">
+                <div class="card-ribbon">Mercantile VP · 2018</div>
+                <div class="card-logo">
+                  <img src="Company%20Logo/Mercantile%20VP.png" alt="Mercantile VP logo">
+                </div>
+                <div class="card-info">
+                  <span class="card-number">4/9</span>
+                  <p class="card-role">Software Engineer</p>
+                  <p class="card-quality">Quality: +100%</p>
+                  <p class="card-years">Jun 2018 — Dec 2018</p>
+                  <div class="card-divider"></div>
+                  <p class="card-description">Developed web modules and third-party service integrations; promoted improvements in internal system workflows.</p>
+                </div>
+              </div>
+            </div>
+            <div class="timeline-item reveal-item">
+              <div class="card-art">
+                <div class="card-ribbon">Ezerec Pty · 2017</div>
+                <div class="card-logo">
+                  <img src="Company%20Logo/Ezerec%20Pty.png" alt="Ezerec logo">
+                </div>
+                <div class="card-info">
+                  <span class="card-number">5/9</span>
+                  <p class="card-role">Senior Web Developer</p>
+                  <p class="card-quality">Quality: +100%</p>
+                  <p class="card-years">Nov 2017 — Jun 2018</p>
+                  <div class="card-divider"></div>
+                  <p class="card-description">Led a team of junior developers delivering client-facing websites; ensured timely delivery and mentorship (CodeIgniter).</p>
+                </div>
+              </div>
+            </div>
+            <div class="timeline-item reveal-item">
+              <div class="card-art">
+                <div class="card-ribbon">Freelance · 2016</div>
+                <div class="card-logo">
+                  <img src="Company%20Logo/Freelance.png" alt="Freelance logo">
+                </div>
+                <div class="card-info">
+                  <span class="card-number">6/9</span>
+                  <p class="card-role">Freelance Developer</p>
+                  <p class="card-quality">Quality: +100%</p>
+                  <p class="card-years">Nov 2016 — Nov 2017</p>
+                  <div class="card-divider"></div>
+                  <p class="card-description">Specialized in Magento-based e-commerce theming and module development.</p>
+                </div>
+              </div>
+            </div>
+            <div class="timeline-item reveal-item">
+              <div class="card-art">
+                <div class="card-ribbon">Quoleaf · 2011</div>
+                <div class="card-logo">
+                  <img src="Company%20Logo/Quoleaf.png" alt="Quoleaf logo">
+                </div>
+                <div class="card-info">
+                  <span class="card-number">7/9</span>
+                  <p class="card-role">Senior Web Developer</p>
+                  <p class="card-quality">Quality: +100%</p>
+                  <p class="card-years">Feb 2011 — Nov 2016</p>
+                  <div class="card-divider"></div>
+                  <p class="card-description">Led e-commerce and WordPress projects, database schema design, wireframing and UI builds.</p>
+                </div>
+              </div>
+            </div>
+            <div class="timeline-item reveal-item">
+              <div class="card-art">
+                <div class="card-ribbon">TKGI · 2010</div>
+                <div class="card-logo">
+                  <img src="Company%20Logo/tkgi.png" alt="TKGI logo">
+                </div>
+                <div class="card-info">
+                  <span class="card-number">8/9</span>
+                  <p class="card-role">Web Dev / Automation Strat</p>
+                  <p class="card-quality">Quality: +100%</p>
+                  <p class="card-years">Jan 2010</p>
+                  <div class="card-divider"></div>
+                  <p class="card-description">Handles multiple websites and internal operations automation (remote, part time).</p>
+                </div>
+              </div>
+            </div>
+            <div class="timeline-item reveal-item">
+              <div class="card-art">
+                <div class="card-ribbon">Escentrics · 2009</div>
+                <div class="card-logo">
+                  <img src="Company%20Logo/Escentrics.png" alt="Escentrics logo">
+                </div>
+                <div class="card-info">
+                  <span class="card-number">9/9</span>
+                  <p class="card-role">Full Stack Developer</p>
+                  <p class="card-quality">Quality: +100%</p>
+                  <p class="card-years">Oct 2009 — Feb 2011</p>
+                  <div class="card-divider"></div>
+                  <p class="card-description">Created full-stack web applications using PHP, ASP.NET, and JavaScript.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section section-contact" id="contact">
+          <div class="section-header">
+            <span>Summon</span>
+            <h2>Ready to forge something bold?</h2>
+          </div>
+          <div class="contact-grid">
+            <div>
+              <p>
+                Share your next quest and I’ll craft a portfolio roadmap, UI
+                strategy, and technical build to bring it to life.
+              </p>
+              <ul>
+                <li><strong>Location:</strong> Angeles City, Philippines</li>
+                <li><strong>Phone:</strong> +63 917 3048 657</li>
+                <li><strong>Email:</strong> <a href="mailto:rafael.asuncion@gmail.com">rafael.asuncion@gmail.com</a></li>
+                <li><strong>LinkedIn:</strong> <a href="#">linkedin.com/in/raf</a></li>
+              </ul>
+            </div>
+            <form class="contact-form" action="https://formspree.io/f/mqejgjqy" method="POST">
+              <label>
+                Name
+                <input type="text" name="name" placeholder="Your name" />
+              </label>
+              <label>
+                Email
+                <input type="email" name="email" placeholder="you@example.com" />
+              </label>
+              <label>
+                Message
+                <textarea name="message" rows="5" placeholder="Tell me about your next project..."></textarea>
+              </label>
+              <!-- Replace data-sitekey with your key from hcaptcha.com -->
+              <div class="h-captcha" data-sitekey="YOUR_HCAPTCHA_SITE_KEY" data-theme="dark"></div>
+              <button type="submit">Send message</button>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>Forged in the Atlas, crafted for epic digital journeys.</p>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

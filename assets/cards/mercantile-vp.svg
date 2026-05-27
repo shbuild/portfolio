@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600">
+  <rect width="100%" height="100%" fill="#0c0b0d"/>
+  <rect x="14" y="14" width="372" height="572" rx="24" fill="#111113" stroke="#3a3639" stroke-width="16"/>
+  <defs>
+    <linearGradient id="bg5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2d2216"/>
+      <stop offset="100%" stop-color="#120f0c"/>
+    </linearGradient>
+  </defs>
+  <rect x="34" y="38" width="332" height="342" rx="18" fill="url(#bg5)" stroke="#2e2a31" stroke-width="6"/>
+  <circle cx="200" cy="164" r="58" fill="#191512" stroke="#a6762f" stroke-width="8"/>
+  <path d="M184 186 c10 -12 32 -12 44 0" stroke="#f8d18c" stroke-width="8" fill="none"/>
+  <circle cx="180" cy="152" r="10" fill="#f8d18c"/>
+  <circle cx="220" cy="152" r="10" fill="#f8d18c"/>
+  <path d="M166 212 q68 48 96 0" fill="#231e20"/>
+  <path d="M142 250 l-30 74 q8 18 20 16 l30 -72" fill="#242024"/>
+  <path d="M258 250 l30 74 q-8 18 -20 16 l-30 -72" fill="#242024"/>
+  <path d="M162 316 q76 30 76 0" stroke="#b38a3d" stroke-width="10" fill="none"/>
+  <path d="M170 126 c-22 16 -40 52 -40 72" stroke="#caa66a" stroke-width="10" fill="none"/>
+  <path d="M230 126 c22 16 40 52 40 72" stroke="#caa66a" stroke-width="10" fill="none"/>
+  <circle cx="116" cy="178" r="14" fill="#d8b05b"/>
+  <path d="M108 170 l16 -30" stroke="#d8b05b" stroke-width="8"/>
+  <circle cx="284" cy="178" r="14" fill="#d8b05b"/>
+  <path d="M276 170 l16 -30" stroke="#d8b05b" stroke-width="8"/>
+  <text x="200" y="500" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#d9b26b">Mercantile</text>
+  <text x="200" y="532" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#bfbfbf">VP</text>
+</svg>

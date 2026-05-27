@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600">
+  <rect width="100%" height="100%" fill="#0b0a0d"/>
+  <rect x="14" y="14" width="372" height="572" rx="24" fill="#131014" stroke="#3b363a" stroke-width="16"/>
+  <defs>
+    <linearGradient id="bg4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1d2632"/>
+      <stop offset="100%" stop-color="#101017"/>
+    </linearGradient>
+  </defs>
+  <rect x="34" y="38" width="332" height="342" rx="18" fill="url(#bg4)" stroke="#2f2a33" stroke-width="6"/>
+  <circle cx="200" cy="160" r="64" fill="#121218" stroke="#4c5b7d" stroke-width="8"/>
+  <path d="M146 184 c20 -32 108 -32 128 0" fill="none" stroke="#6c84b5" stroke-width="10"/>
+  <path d="M162 220 h76" stroke="#7ea4df" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="180" cy="150" r="12" fill="#7cb0ff"/>
+  <circle cx="220" cy="150" r="12" fill="#7cb0ff"/>
+  <path d="M180 178 l4 20 h32 l4 -20" fill="#6a8dc2"/>
+  <path d="M172 264 l-34 80 q-4 14 10 12 l28 -66" fill="#2a2f41"/>
+  <path d="M228 264 l34 80 q4 14 -10 12 l-28 -66" fill="#2a2f41"/>
+  <path d="M136 234 q132 54 128 0" stroke="#6fa4df" stroke-width="6" fill="none"/>
+  <g fill="none" stroke="#7db7ff" stroke-width="6">
+    <circle cx="126" cy="106" r="14"/>
+    <circle cx="274" cy="106" r="14"/>
+    <path d="M126 118 c44 28 172 28 216 0"/>
+  </g>
+  <path d="M146 366 q108 24 108 -8" stroke="#5a6c8f" stroke-width="6" fill="none"/>
+  <text x="200" y="500" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#d9b26b">Quantum</text>
+  <text x="200" y="532" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#bfbfbf">Crowd</text>
+</svg>
